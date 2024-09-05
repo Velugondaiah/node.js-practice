@@ -2,7 +2,7 @@ let express = require('express')
 let app = express()
 
 app.get('/', (request, response) => {
-  response.send('Home papa')
+  response.send('Home')
 });
 
 app.get("/about" , (request , response)=>{
